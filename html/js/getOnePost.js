@@ -11,22 +11,31 @@ function convertDate($date){
 
 }
 
-
 function renderElements(data){
+    let dateBrasilOnePost = convertDate(data.datas)
+    
     let title = document.querySelector('#title')
     let description = document.querySelector('#description')
     let text = document.querySelector('#text')
     let date = document.querySelector('#date')
     let image = document.querySelector('#image')
 
-    let dateBrasilOnePost = convertDate(data.datas)
-
-    renderImageOnePost = image.setAttribute("src", data.img)
-    title.append(data.title)
-    description.append(data.descricao)
-    text.append(data.texto)
-    date.append(dateBrasilOnePost)
-    image.append(renderOnePost)
+    if(image) {
+        image.setAttribute("src", data.img);
+    }
+    if(title) {
+        title.append(data.title);
+    }
+    if(description) {
+        description.append(data.descricao);
+    }
+    if(text) {
+        text.append(data.texto);
+    }
+    if(date) {
+        date.append(dateBrasilOnePost);
+    }
+    
 }
 
 function getOnePost(){
@@ -35,7 +44,6 @@ function getOnePost(){
     
         const data = response.data.result
         renderElements(data)
-        
     })
     .catch(error => console.log(error))
 }
