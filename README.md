@@ -55,7 +55,7 @@ O arquivo config.php é responsável por conter as configurações de conexão c
 O arquivo return.php é responsável por retornar a resposta em formato JSON.
 
 ```bash
-$ git clone https://github.com/newtoncutrim/maximizeapi.git
+$ git clone https://github.com/newtoncutrim/testemaximizeapi.git
 $ cd testemaximizeapi
 $ docker-compose up --build -d
 ```
