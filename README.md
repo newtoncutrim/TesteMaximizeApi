@@ -56,7 +56,7 @@ O arquivo return.php é responsável por retornar a resposta em formato JSON.
 
 ```bash
 $ git clone https://github.com/newtoncutrim/maximizeapi.git
-$ cd maximizeapi
+$ cd testemaximizeapi
 $ docker-compose up --build -d
 ```
 Rodando em http://localhost:8000
