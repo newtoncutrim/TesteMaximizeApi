@@ -1,0 +1,82 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.cabecalho {
+    box-shadow: 1px 13px 18px -4px rgba(0,0,0,0.45);
+    height: 180px;
+    background-color: rgb(4, 137, 137);
+}
+.titulo {
+    font-size: 46px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: white;
+}
+
+.subtitulo{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.navegacao {
+    font-size: 30px;
+    padding: 40px;
+}
+
+#link {
+    font-weight: 600;
+    color: rgb(106, 148, 238);
+    text-decoration: none;
+    padding: 10px;
+}
+#link:hover{
+    border-radius: 4px;
+    color: white;
+    background-color:  rgba(4, 137, 137, 0.733);
+
+}
+body {
+    background-color: rgb(85, 26, 26);
+}
+.container {
+    display: flex;
+}
+.cream-bg {
+    background-color: white;
+}
+.card-img{
+    width: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 0px;
+}
+
+
+.rodape{
+    box-shadow: -1px 0px 18px -4px rgba(0,0,0,0.45);
+    height: 200px;
+    background-color: black;
+}
+
+.rodap{
+    border-radius: 2px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.sub {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+span{
+    font-size: 35px;
+    color: rgb(106, 148, 238);
+}
